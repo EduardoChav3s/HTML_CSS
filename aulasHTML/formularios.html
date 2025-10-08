@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <h1>Exemplos de Formulários</h1>
+        <article>
+            <!-- <section>
+                <form action="" method="">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto aqui">
+                    <label for="mensagem">Sua Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+                </form>
+            </section>
+            <section>
+                <form action="" method="">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha">
+                    <label for="email_contato">Email:</label>
+                    <input type="email" id="email_contato" name="email_contato">
+                    <button type="submit">Enviar</button>
+                </form>
+            </section> -->
+            <section>
+                <form action="">
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" placeholder="Insira seu nome" required minlength="8"><br>
+                    <label for="password">Senha: </label>
+                    <input type="password" id="senha" placeholder="Insira sua senha"><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" placeholder="Insira seu email"><br>
+                    <label for="idade">Idade: </label>
+                    <input type="number" id="idade" placeholder="Insira sua idade"><br>
+                    <label for="data_nascimento">Data de nascimento:</label>
+                    <input type="datetime-local" id="nascimento"><br>
+
+                </form>
+            </section>
+            <section>
+                <h3><strong>Nasceu em qual periodo?</strong></h3>
+                <input type="radio" id="manha" name="periodo" value="manha">
+                <label for="manha">Manhã</label><br>
+                <input type="radio" id="tarde" name="periodo" value="tarde">
+                <label for="tarde">Tarde</label><br>
+                <input type="radio" id="noite" name="periodo" value="noite">
+                <label for="noite">Noite</label><br>
+            </section>
+            <section>
+                <h3>Quais Tecnologias você conhece?</h3>
+                <input type="checkbox" id="html" name="tecnologias" value="html">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="tecnologias" value="css">
+                <label for="html">CSS</label><br>
+                <input type="checkbox" id="js" name="tecnologias" value="js">
+                <label for="html">JavaScript</label><br>
+            </section>
+            <section>
+                <h3>Quais estado você conhece?</h3>
+                <fieldset>
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="estado">São paulo</option>
+                        <option value="estado">Rio de Janeiro</option>
+                        <option value="estado">Minas Gerais</option>
+                        <option value="estado">Paraná</option>
+                    </select><br>
+                </fieldset>
+            </section>
+        </article>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar tudo</button>
+    </main>
+</body>
+</html>

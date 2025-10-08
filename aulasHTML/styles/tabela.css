@@ -1,0 +1,22 @@
+table{
+    border: 2px solid #000000;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 3px;
+    border-collapse: collapse;
+}
+table tr{
+    color: #000000;
+}
+table td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #000000;
+    /* background-image: url(../../aulasHTML/src/images/cores_200l_150.png); */
+}
+table th{
+    padding: 10px;
+    border: 2px solid #000000;
+    background-color: #76e1ff;
+}
